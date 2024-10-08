@@ -14,11 +14,7 @@
  .multi-chain-power-section{
     margin-top: 0;
   }
-  /* .hero-area-text h3,.token-card-heading h3,.section-heading h3 {
-    font-size: 50px;
-    line-height: 60px;
-    text-shadow: 2px 0px 0px #1CD691, 11px 5px 10px rgba(28, 214, 145, 0.24);
-  } */
+
   .multi-chain-power-section::after {
     display: none;
   }
@@ -53,34 +49,12 @@
   .token-view-more-btn .primary-btn {
     line-height: 78px;
   }
-  /* .hero-container {
-    padding-top: 230px;
-    padding-bottom: 0;
-    background-size: cover;
-  } */
   .coin-logo-area ul li {
     width: 26%;
   }
-  /* .coin-logo-section {
-    margin-top: -125px;
-  } */
   .token-details-btn-group .btn4.primary-btn {
     min-width:225px
    }
-   .footer-area{
-    flex-wrap: wrap;
-    justify-content: center !important;
-  }
-  .footer-description {
-    margin-right:0px;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 60px;
-  }
-  .footer-description .social-menu ul{
-    justify-content: center;
-  }
 }
 @media screen and (max-width:1280px) {
   .ecm-left-side ul{
@@ -163,9 +137,6 @@
   .coinpool-hero-rights {
     display: none;
   }
-  /* .hero-container {
-    padding-bottom: 275px;
-  } */
   .hero-container {
     padding-top: 240px;
     background-size: cover;
@@ -229,6 +200,27 @@
     width: 100%;
     max-width: 325px;
   }
+   .footer-area{
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .footer-description {
+    margin-right:0px;
+    max-width:550px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom:20px;
+  }
+  .footer-description .social-menu ul{
+    justify-content: center;
+  }
+  .footer-widgets-area{
+    width: 100%;
+  }
+  .subscribe-email input{
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 991px) {
   .why-choose-section{
@@ -291,7 +283,7 @@
     width: 100%;
   }
   .header-area {
-    padding-top: 110px;
+    padding-top:122px;
   }
   .frequently-answere .accordion-item {
     margin-bottom: 10px;
@@ -307,7 +299,7 @@
   }
   .footer-widgets-area {
    row-gap: 40px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     column-gap: 0;
   }
   .token-view-shear{
@@ -325,6 +317,11 @@
   }
   .line {
     height: 1px;
+  }.running-token-view-box,.token-card-main-area,.ido-single-card,.subscribe-bg{
+    border-radius: 15px;
+    background-image: url('../images/bg/mobile-card.png');
+    padding-bottom: 60px !important;
+    padding-top: 60px;
   }
   
 }
@@ -402,11 +399,7 @@
   .ido-card-header {
     margin-top: 20px;
   }
-  .running-token-view-box,.token-card-main-area,.ido-single-card,.subscribe-bg,.frequently-answere .accordion-item{
-    background-image: none;
-    background: linear-gradient(135deg, #264162 0%, #102e2c 100%);
-    border-radius: 15px;
-  }
+  
   .navbar-brand {
     margin-right: 0px;
   }
@@ -619,12 +612,35 @@
     .apply-launch-part label{
       font-size:15px;
      }
+     .footer-widgets {
+      width: 50%;
+    }
+    .subscribe-form .subscribe-btn{
+      margin: auto;
+      margin-top: 20px;
+    }
+    .footer-widgets-area {
+      row-gap: 0;
+      flex-wrap: wrap;
+    }
+    .footer-widgets ul li a,.subscribe-email input{
+      font-size: 16px;
+    }
+    .token-card-right {
+      margin-top: 35px;
+    }
+    .contactinfo ul li {
+      font-size: 20px;
+    }
+    .footer-widgets.footer-subscribe{
+      margin-top: 40px;
+    }
 }
 @media screen and (max-width:480px) {
   .coin-logo-area ul li img {
     width: 90%;
   }
-  .footer-widgets.contactinfo,.footer-widgets.footer-subscribe{
+.footer-widgets.footer-subscribe{
     width: 100% !important;
     text-align: center;
     max-width: 100%;
@@ -637,7 +653,12 @@
   .earn-card-btn-group ul li a.btn4.primary-btn {
     min-width: 302px;
   }
- 
+  .ido-card-logo {
+    width: 100%;
+  }
+  .upcoming-label {
+    display: none;
+  }
 }
 
 

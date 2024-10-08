@@ -25,6 +25,14 @@ jQuery(document).ready(function ($) {
     
      
     });
+    $(document).on("click", function (event) {
+      const $div = $("#outside-click");
+      const $navbarText = $("#navbarText");
+      if (!$div.is(event.target) && $div.has(event.target).length === 0) {
+        $navbarText.removeClass("show");
+      }
+    });
+    
     $('.flip-custom').slideShowAd({
       interval: '3000',
       slideShowType: 'flipY',
