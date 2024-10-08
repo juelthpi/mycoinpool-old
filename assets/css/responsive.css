@@ -1,0 +1,644 @@
+ 
+@media screen and (min-width:1280px) {
+  .navbar-nav {
+    gap:30px;
+  }
+ 
+  .token-card-middle-area {
+    margin-right: 96px;
+  }
+  
+}
+@media screen and (max-width: 1440px) {
+  
+ .multi-chain-power-section{
+    margin-top: 0;
+  }
+  /* .hero-area-text h3,.token-card-heading h3,.section-heading h3 {
+    font-size: 50px;
+    line-height: 60px;
+    text-shadow: 2px 0px 0px #1CD691, 11px 5px 10px rgba(28, 214, 145, 0.24);
+  } */
+  .multi-chain-power-section::after {
+    display: none;
+  }
+  .multi-chain-power-heading p {
+    margin-top: 20px;
+  }
+  .token-card-middle-area {
+    margin-right: 40px;
+  }
+ 
+  .ido-card-header{
+    margin-top: 38px;
+  }
+  .slick-arrow {
+    height: 50px;
+    width: 50px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .cb-slideshow div,.cb-slideshow{
+    width: 400px !important;
+  }
+  .primary-btn {
+    min-width: 300px;
+    font-size: 18px;
+    height: 75px;
+  }
+  .btn2{
+    height:85px;
+  }
+  .token-view-more-btn .primary-btn {
+    line-height: 78px;
+  }
+  /* .hero-container {
+    padding-top: 230px;
+    padding-bottom: 0;
+    background-size: cover;
+  } */
+  .coin-logo-area ul li {
+    width: 26%;
+  }
+  /* .coin-logo-section {
+    margin-top: -125px;
+  } */
+  .token-details-btn-group .btn4.primary-btn {
+    min-width:225px
+   }
+   .footer-area{
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .footer-description {
+    margin-right:0px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .footer-description .social-menu ul{
+    justify-content: center;
+  }
+}
+@media screen and (max-width:1280px) {
+  .ecm-left-side ul{
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .ecm-left-side {
+    text-align: center;
+  }
+   .token-card-main-area{
+    flex-wrap: wrap;
+   }
+  .token-card-right {
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+  }
+  .coin-logo-area ul li img{
+    width: 80%;
+  }
+  .token-card-right .social-menu ul,.countdown-area ul {
+    justify-content: center;
+  }
+  .token-card-main-area {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .frequently-answere .accordion-button {
+    padding: 6px 15px !important;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .frequently-answere .accordion-body p {
+    font-size: 15px;
+  }
+  .upgrade-box-left{text-align: center;}
+  .upgrade-box{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .upgrade-box-left .common-heading-2 p{
+    margin: auto;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .ecm-right-box{
+    margin-left: 0;
+  }
+  .menu-bg-fixed {
+    top: -120px;
+  }
+  .header-area {
+    padding-top: 120px;
+  }
+  .button-wrapper {
+    display: inline-block !important;
+    margin-top: 20px;
+    margin-left: -12px;
+    margin-bottom: 30px;
+  }
+  button.navbar-toggler.icon:focus{
+    box-shadow: 0 0 0 0 transparent !important;
+  }
+  #outside-click{
+    padding-top: 20px;
+  }
+  .menu-bg {
+    background-image: none;
+    backdrop-filter: 17px;
+    background-color: rgba(116, 117, 115, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(22px);
+    border-radius: 10px;
+  }
+  .running-token-section {
+    background-size: contain;
+  }
+  .coinpool-hero-rights {
+    display: none;
+  }
+  /* .hero-container {
+    padding-bottom: 275px;
+  } */
+  .hero-container {
+    padding-top: 240px;
+    background-size: cover;
+  }
+  .coin-logo-section {
+    margin-top: -140px;
+  }
+  .subscribe-email input {
+    padding: 14px 28px;
+  }
+  .multi-chain-power-section::before{
+    background-size: cover;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+  .token-details-right-box{
+    margin-top: 60px;
+  }
+  .roadmap-item{
+    margin-bottom: 40px;
+  }
+  .roadmap-item-year {
+    position: absolute !important;
+    right: 10px;
+  }
+  .roadmap-item-text {
+    margin-left: 0;
+    padding-left: 25px;
+  }
+  .roadmap-item-year::before{
+    display: none;
+  }
+  .roadmap-item.justify-content-end{
+    justify-content: center !important;
+    margin-bottom: 80px !important;
+  }
+  .token-details-card-thumnails.box-bg {
+    margin-right:0px;
+  }
+  .section-heading h3 {
+    font-size: 45px;
+  }
+  .chart-center-box {
+    height: 165px;
+    width: 165px;
+  }
+  .token-rollout-right-side {
+    margin-left:50px;
+  }
+  .breadcrumbs-mobile-padding{
+    margin-top: 85px;
+  }
+  .launch-thumnail {
+    padding-left:0px;
+    text-align: center;
+  }
+  .launch-thumnail img {
+    width: 100%;
+    max-width: 325px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .why-choose-section{
+    padding-bottom: 0 !important;
+  }
+  .frequently-thumnail {
+    padding-right:0px;
+  }
+  .frequently-asked-text-area {
+    margin-top: 60px;
+  }
+  .subscribe-form{
+    display: flex;
+    justify-content: center;
+  }
+  .subscribe-text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+ 
+  /* .ido-card-list-item img {
+    max-width: 76px;
+    width: 100%;
+  } */
+  .coin-logo-section {
+    margin-top: -150px;
+  }
+  .coin-logo-area ul li {
+    width: 35%;
+  }
+  .coin-logo-area ul li img{
+    width: 60%;
+  }
+  .coin-logo-area ul {
+    row-gap: 15px;
+  }
+  
+  .pagination-inner li a {
+    min-width: 48px;
+  }
+  .token-card-thumnails,.token-card-middle-area {
+    margin-right: 0;
+    width: 100%;
+  }
+  .token-card-thumnails{
+    margin-bottom: 60px;
+  }
+  .token-card-thumnail-text{
+    flex-wrap: wrap;
+  }
+  .token-card-main-area {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .token-card-middle h4 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .token-card-thumnails img{
+    width: 100%;
+  }
+  .header-area {
+    padding-top: 110px;
+  }
+  .frequently-answere .accordion-item {
+    margin-bottom: 10px;
+  }
+  .ido-card-body .social-menu ul{
+    justify-content: center !important;
+  }
+  .section-heading h3,.token-card-heading h3 {
+    font-size: 45px;
+  }
+  .footer-widgets {
+    width: 47%;
+  }
+  .footer-widgets-area {
+   row-gap: 40px;
+    flex-wrap: wrap;
+    column-gap: 0;
+  }
+  .token-view-shear{
+    border-right:none;
+  }
+  .token-rollout-section {
+    padding-top: 80px;
+  }
+  .token-rollout-right-side {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+  .left-text, .right-text {
+    font-size: 15px;
+  }
+  .line {
+    height: 1px;
+  }
+  
+}
+@media screen and (max-width: 767px) {
+  .header-area .container-fluid {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  /* .ido-card-list-item {
+    flex-wrap: wrap;
+  } */
+  /* .ido-card-list-item img{
+    display:none;
+  } */
+  .ido-active-offer {
+    gap:18px;
+    flex-wrap: wrap;
+  }
+  .ido-card-header{
+    flex-wrap: wrap;
+  }
+  .ido-card-logo{
+    margin-bottom:20px;
+  }
+  .ido-single-card {
+    padding: 15px;
+  }
+   .hero-area-text ul{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+   }
+   .hero-area-text h3,.token-card-heading h3,.section-heading h3 {
+    font-size:35px;
+    line-height:55px;
+  }
+  p {
+    font-size: 16px;
+  }
+  
+  .hero-area-text {
+    text-align: center;
+  }
+  .primary-btn {
+    min-width: 280px;
+    font-size: 16px;
+    /* height: 65px; */
+    display: flex;
+  }
+  .coin-logo-section {
+    margin-top: -160px;
+  }
+  .coin-logo-area ul li {
+    width: 38%;
+  }
+  .coin-logo-area ul {
+    gap: 15px;
+  }
+  .btn2 {
+    height:74px;
+  }
+  .running-token-view-box{
+    justify-content: center;
+  }
+  .token-view-box-text,.token-view-btn {
+    width: 100%;
+  }
+  .token-view-btn{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .btn3 {
+    padding: 12px 25px;
+  }
+  .ido-card-header {
+    margin-top: 20px;
+  }
+  .running-token-view-box,.token-card-main-area,.ido-single-card,.subscribe-bg,.frequently-answere .accordion-item{
+    background-image: none;
+    background: linear-gradient(135deg, #264162 0%, #102e2c 100%);
+    border-radius: 15px;
+  }
+  .navbar-brand {
+    margin-right: 0px;
+  }
+  .subscribe-bg {
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+  .slider-arrows {
+    gap: 15px;
+    margin-top: 30px;
+  }
+  .token-card-main-area {
+    padding-bottom: 50px;
+  }
+  .frequently-circle{
+    display: none;
+  }
+  .token-card-heading{
+    flex-wrap: wrap;
+  }
+  .footer-bottom-copyright{
+    justify-content: center !important;
+  }
+  .terms-conditions ul li a {
+    font-size: 15px;
+  }
+  .copyright-text p{
+    text-align: center;
+  }
+  .multi-chain-card-logo img {
+    width: 55px;
+  }
+  .multi-chain-card-text h4 {
+    margin-bottom: 8px;
+    font-size: 22px;
+  }
+  .multi-chain-card {
+    padding: 20px;
+  }
+  .pt120 {
+    margin-top: 80px;
+  }
+  .frequently-asked-question-section{
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .token-view-box-text{
+    flex-direction: column;
+    justify-content: center !important;
+    text-align: center;
+    gap: 15px;
+  }
+  .ecm-address p{
+    font-size: 12px;
+  }
+  .token-view-shear{
+    margin-bottom: 40px;
+  }
+  .roadmap-item-year {
+    position: relative !important;
+    margin-bottom: -50px;
+    right: 0;
+  }
+  .roadmap-item {
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .roadmap-item-left {
+    margin-right: 0;
+  }
+  .custome-ordering{
+    order: -2;
+  }
+  .hero-container {
+    padding-top: 205px;
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 260px;
+  }
+  .circle-effect-center,.center-effect1::after {
+    width: 100%;
+  }
+  .ido-card-list-item img {
+    display: none;
+  }
+  .ido-card-list-item {
+    grid-template-columns: 4fr 6fr;
+  }
+  .ptb120{
+    padding:90px 0;
+  }
+  .hero-area-text h3{
+    font-size: 45px;
+  }
+  .ecm-form .subscribe-email input {
+    padding: 15px 28px;
+    font-size: 15px;
+  }
+  .circle-effect3{
+    z-index: -2;
+  }
+  .token-details-terget-area ul {
+    gap: 16px;
+    margin-top: 30px;
+  }
+  .token-details-btn-group ul{
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .button-list ul{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .full-w-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:40px;
+    padding-bottom:40px;
+  }
+  .mobile-box-bg{
+    background-image: none;
+    background: linear-gradient(135deg, #264162 0%, #102e2c 100%);
+    border-radius: 15px;
+  }
+  .g30{
+    gap: 15px;
+  }
+  .ido-card-logo img{
+    width: 80px;
+    height: 80px;
+  }
+  .running-token-view-box{
+    padding: 40px 28px;
+  }
+  .full-w-card .common-heading-2 p{
+    width: 100%;
+  }
+  .project-introduction.mt40{
+    margin-top: 20px;
+  }
+  .token-roll-label ul li{
+    font-size: 14px;
+  }
+  .token-roll-controls .progress-bar span, .ico-progress .progress-bar span {
+    font-size: 15px;
+  }
+  .roadmap-start{
+    min-height: 240px;
+    min-width: 240px;
+  }
+  .roadmap-item-year {
+    min-height: 154px;
+    min-width: 154px;
+    max-height: 212px;
+  }
+    .line{
+      display: none;
+    }
+    .token-sell-price-item {
+      flex-wrap: wrap;
+      justify-content: center !important;
+      margin-bottom: 10px;
+    }
+    .token-sell-price{
+      margin-bottom: 10px;
+    }
+    .row.mt80.gy-4{
+      margin-top: 40px;
+    }
+    .earn-card-btn-group ul{
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .chart-center-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #111822;
+      width: 100%;
+      border-radius:0%;
+      position: absolute;
+      top:-94px;
+      border: 2px solid #217e88;
+      outline:1px solid #040C16;
+    }
+    .token-rollout-right-side{
+      margin-top:230px;
+    }
+    .pagination .subscribe-btn{
+      height: 40px !important;
+      min-width:75px !important;
+      font-size: 12px;
+    }
+    .pagination-inner li a {
+      min-width: 36px;
+      height: 40px;
+      font-size: 12px;
+    }
+    .pagination ul {
+      gap:3px;
+    }
+    .apply-launch-part {
+      padding: 25px;
+    }
+    .apply-launch-part label{
+      font-size:15px;
+     }
+}
+@media screen and (max-width:480px) {
+  .coin-logo-area ul li img {
+    width: 90%;
+  }
+  .footer-widgets.contactinfo,.footer-widgets.footer-subscribe{
+    width: 100% !important;
+    text-align: center;
+    max-width: 100%;
+  }
+  .footer-widgets .subscribe-btn{
+    margin: auto;
+    margin-top: 20px;
+  }
+ 
+  .earn-card-btn-group ul li a.btn4.primary-btn {
+    min-width: 302px;
+  }
+ 
+}
+
+
+
