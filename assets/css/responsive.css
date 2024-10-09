@@ -112,10 +112,7 @@
     padding-top: 120px;
   }
   .button-wrapper {
-    display: inline-block !important;
-    margin-top: 20px;
     margin-left: -12px;
-    margin-bottom: 30px;
   }
   button.navbar-toggler.icon:focus{
     box-shadow: 0 0 0 0 transparent !important;
@@ -192,14 +189,6 @@
   .breadcrumbs-mobile-padding{
     margin-top: 85px;
   }
-  .launch-thumnail {
-    padding-left:0px;
-    text-align: center;
-  }
-  .launch-thumnail img {
-    width: 100%;
-    max-width: 325px;
-  }
    .footer-area{
     flex-wrap: wrap;
     justify-content: center !important;
@@ -220,6 +209,18 @@
   }
   .subscribe-email input{
     font-size: 16px;
+  }
+  .header-right {
+    padding-left: 14px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  .button-wrapper{
+    min-width: 272px;
+  }
+  .index-hero-text {
+    width: 100%;
   }
 }
 @media screen and (max-width: 991px) {
@@ -283,7 +284,7 @@
     width: 100%;
   }
   .header-area {
-    padding-top:122px;
+    padding-top:120px;
   }
   .frequently-answere .accordion-item {
     margin-bottom: 10px;
@@ -500,7 +501,7 @@
     font-size: 45px;
   }
   .ecm-form .subscribe-email input {
-    padding: 15px 28px;
+    padding: 15px 15px;
     font-size: 15px;
   }
   .circle-effect3{
@@ -624,7 +625,7 @@
       flex-wrap: wrap;
     }
     .footer-widgets ul li a,.subscribe-email input{
-      font-size: 16px;
+      font-size: 15px;
     }
     .token-card-right {
       margin-top: 35px;
@@ -634,6 +635,21 @@
     }
     .footer-widgets.footer-subscribe{
       margin-top: 40px;
+    }
+    .navbar.menu-bg.clip-path{
+      clip-path: polygon( 5px 0, 100% 0, 100% calc(100% - 5px), calc(100% - 5px) 100%, 0 100%, 0 5px );
+    }
+    .token-card-thumnails {
+      margin-bottom: 31px;
+    }
+    .line-divider2{
+      margin:20px 0 !important;
+    }
+    .ecm-form h4 {
+      font-size: 26px;
+    }
+    .ecm-right-header ul li {
+      font-size: 20px;
     }
 }
 @media screen and (max-width:480px) {
@@ -658,6 +674,12 @@
   }
   .upcoming-label {
     display: none;
+  }
+  .contactinfo ul li {
+    font-size: 16px;
+  }
+  .ecm-form .subscribe-email img {
+    padding-left: 10px;
   }
 }
 

@@ -63,14 +63,19 @@ h1,h2,h3,h4,h5,h6{
 	background-image: url('../images/bg/btn2.png');
   height:90px;
 }
-.primary-btn:hover{
-  /* box-shadow: rgba(187, 187, 187, 0.35) 0px 5px 15px; */
-}
 .menu-bg{
-  background-image: url('../images/bg/nav.png');
+  /* background-image: url('../images/bg/nav.png');
   background-size: 100% 100%;
   background-position:center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background: linear-gradient(90deg, #16458b31 0%, #5d746b34 100.01%);
+	backdrop-filter: blur(2px);
+	border-radius: 5px;
+  position: relative;
+  z-index: 2;
+}
+.menu-bg-fixed .menu-bg{
+  backdrop-filter: blur(35px);
 }
 .menu-bg-fixed {
 	position: fixed;
@@ -100,16 +105,8 @@ h1,h2,h3,h4,h5,h6{
 .nav-link.dropdown-toggle.show{
   color: #1DC89F;
 }
-.header-right a{
-  font-size: 16px;
-  margin-right: 15px;
-  font-weight: 600;
-  transition: 0.5s;
-  color:#fff;
-}
-.button-outer-wrapper {
-  border-radius: 10px;
-
+.header-right{
+  gap:15px;
 }
 .dropdown-menu {
 	animation: 0.5s animationadd;
@@ -132,14 +129,33 @@ h1,h2,h3,h4,h5,h6{
   font-weight: 500;
 }
 .button-wrapper {
-	padding: 16px 28px;
-	background-image: url('../images/icon/outline.png');
-	background-size: 100% 100%;
-	background-position: center center;
-	border-radius: 10px;
+  color:#fff;
+  background-color:#121C2B;
+  border-radius: 40px;
+}
+.button-wrapper a{
+  font-size:20px;
+  font-weight:500;
+  transition: 0.2s;
+  color:#fff;
+  padding: 16px 28px;
+  gap: 15px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 40px;
+  align-items: center;
+}
+.button-wrapper.border-gradient::after {
+	background: linear-gradient(135deg, #18F1FF 0%, #3818FF 100%);
+	opacity: 0.99;
+	filter: blur(2.5px);
+	border-radius: 40px;
 }
 .button-wrapper:hover a{
-  color: #1DC89F;
+  background: linear-gradient(90deg, rgba(39, 123, 245, 0.9) 0%, rgba(28, 214, 146, 0.74) 100.01%);
+  filter: blur(0.02px);
+  border-radius: 40px;
+  
 }
 .header-area {
 	padding-top: 35px;
@@ -1057,7 +1073,7 @@ text-fill-color: transparent;
   color: #1CD691;
 }
 .btn3 {
-  padding: 18px 25px;
+  padding: 15px 25px;
   display: inline-block;
   font-size: 16px;
   font-weight: 600;
@@ -1292,7 +1308,7 @@ text-fill-color: transparent;
   top: 0;
 }
 .clip-path{
-  clip-path: polygon( 26px 0, 100% 0, 100% calc(100% - 26px), calc(100% - 26px) 100%, 0 100%, 0 26px );
+  clip-path: polygon( 22px 0, 100% 0, 100% calc(100% - 22px), calc(100% - 22px) 100%, 0 100%, 0 22px );
 }
 .box-bg{
   background-image: url('../images/bg/box-bg.png');
@@ -1928,10 +1944,10 @@ select {
   animation: learn-circle5 15s ease-in-out infinite;
 }
 .launch-thumnail img{
-  width: 80%;
+  max-width: 350px;
 }
 .launch-thumnail{
-  padding-left: 100px;
+  text-align: center;
 }
 .apply-launch-part input{
   background-color: transparent;
@@ -2228,4 +2244,28 @@ select {
   padding: 8px 15px;
   border-radius: 1000px;
   transition: 0.3s;
+}
+.ptb60{
+  padding:60px 0;
+}
+
+/* bitcoin gif */
+.index-hero-text{
+  width: 62%;
+}
+.gif-cover  img {
+	height: 100%;
+	width: 100%;
+	border: 10px solid #003173;
+	border-radius: 50%;
+	opacity: 0.7;
+}
+.coinpool-hero-rights {
+	width: 38%;
+}
+.gif-cover {
+	height: 350px;
+	width: 350px;
+  margin: auto;
+	 
 }
