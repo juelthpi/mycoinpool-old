@@ -150,6 +150,7 @@
   header {
     position: fixed;
     width: 100%;
+    left: 0;
     z-index: 999;
   }
   .token-details-right-box{
@@ -221,6 +222,15 @@
   }
   .index-hero-text {
     width: 100%;
+  }
+  .launch-thumnail {
+    margin-top: 60px;
+  }
+  .apply-launch-part .section-heading{
+    margin-bottom: 20px !important;
+  }
+  .apply-launch-part label {
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -359,6 +369,10 @@
     font-size:35px;
     line-height:55px;
   }
+  .section-heading h3{
+    font-size: 32px;
+    line-height: 42px;
+  }
   p {
     font-size: 16px;
   }
@@ -448,7 +462,7 @@
   }
   .frequently-asked-question-section{
     padding-top: 0;
-    margin-top: 0;
+    margin-top: 60px;
   }
   .token-view-box-text{
     flex-direction: column;
@@ -522,13 +536,15 @@
   .full-w-card {
     padding-left: 15px;
     padding-right: 15px;
-    padding-top:40px;
-    padding-bottom:40px;
+    padding-top:30px;
+    padding-bottom:60px;
   }
   .mobile-box-bg{
-    background-image: none;
+    /* background-image: none;
     background: linear-gradient(135deg, #264162 0%, #102e2c 100%);
+    border-radius: 15px; */
     border-radius: 15px;
+    background-image: url('../images/bg/mobile-card.png');
   }
   .g30{
     gap: 15px;
@@ -650,6 +666,16 @@
     }
     .ecm-right-header ul li {
       font-size: 20px;
+    }
+    .input input, .input textarea {
+      padding: 10px 16px;
+    }
+    .public-radio-area {
+      border-left: none;
+      padding-left: 0;
+    }
+    .input textarea {
+      height: 170px;
     }
 }
 @media screen and (max-width:480px) {

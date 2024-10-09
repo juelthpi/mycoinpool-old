@@ -1278,7 +1278,7 @@ text-fill-color: transparent;
 /* Start Coin details page css */
 .custom-container{
   max-width:1550px;
-  width: 100%;
+  width:98%;
   margin:auto;
 }
 .coin-details-hero-border{
