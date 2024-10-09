@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Dropdown with Images</title>
+    <style>
+        /* Style the custom select wrapper */
+        .custom-select {
+            position: relative;
+            width: 200px;
+        }
+
+        /* Style the default select */
+        select {
+            display: none; /* Hide the default select */
+        }
+
+        /* Create a custom dropdown button */
+        .select-selected {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Style for the dropdown arrow */
+        .select-arrow {
+            margin-left: 10px;
+        }
+
+        /* Container for custom dropdown options */
+        .select-items {
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            width: 100%;
+            max-height: 200px;
+            overflow-y: auto;
+            display: none; /* Hidden by default */
+            z-index: 99;
+        }
+
+        /* Style each option */
+        .select-item {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .select-item img {
+            margin-right: 10px;
+        }
+
+        .select-item:hover {
+            background-color: #f1f1f1;
+        }
+
+        .select-selected:after {
+            content: "▼";
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+<div class="custom-select">
+    <div class="select-selected">
+        <img src="assets/images/country/bd.png" alt="country" width="20"> Bangladesh
+        
+    </div>
+    <div class="select-items">
+        <div class="select-item" data-value="bd">
+            <img src="assets/images/country/bd.png" alt="Bangladesh" width="20"> Bangladesh
+        </div>
+        <div class="select-item" data-value="us">
+            <img src="assets/images/country/us.png" alt="United States" width="20"> United States
+        </div>
+        <div class="select-item" data-value="in">
+            <img src="assets/images/country/in.png" alt="India" width="20"> India
+        </div>
+    </div>
+</div>
+
+<script>
+    // Get references to elements
+    const selectSelected = document.querySelector('.select-selected');
+    const selectItems = document.querySelector('.select-items');
+    const selectItemList = document.querySelectorAll('.select-item');
+
+    // Toggle dropdown on click
+    selectSelected.addEventListener('click', function () {
+        selectItems.style.display = selectItems.style.display === 'block' ? 'none' : 'block';
+    });
+
+    // Close dropdown when clicking outside
+    window.addEventListener('click', function (event) {
+        if (!event.target.closest('.custom-select')) {
+            selectItems.style.display = 'none';
+        }
+    });
+
+    // Update selected value and close dropdown
+    selectItemList.forEach(item => {
+        item.addEventListener('click', function () {
+            const selectedValue = this.dataset.value;
+            const selectedText = this.innerHTML;
+            selectSelected.innerHTML = selectedText + '<span class="select-arrow">▼</span>';
+            selectItems.style.display = 'none';
+        });
+    });
+</script>
+
+</body>
+</html>

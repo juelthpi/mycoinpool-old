@@ -149,9 +149,11 @@
   }
   header {
     position: fixed;
-    width: 100%;
+    width: 96%;
     left: 0;
     z-index: 999;
+    right: 0;
+    margin: auto;
   }
   .token-details-right-box{
     margin-top: 60px;
@@ -232,6 +234,11 @@
   .apply-launch-part label {
     margin-bottom: 10px;
   }
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+ 
 }
 @media screen and (max-width: 991px) {
   .why-choose-section{
@@ -677,6 +684,34 @@
     .input textarea {
       height: 170px;
     }
+    .modal-checkbox{
+      margin-bottom: 20px;
+    }
+    .modal-body-inner a{
+      width: 100%;
+      text-align: center;
+    }
+    .custome-modal {
+      padding:40px 15px;
+      padding-bottom: 80px;
+    }
+    .modal-footer-area{
+      justify-content: center !important;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .modal-or-text {
+      font-size:20px;
+      color: #FFFFFF66;
+      margin-top:20px;
+    }
+    .modal-custome-width {
+      width: 96%;
+    }
+    .modal-header-area h4 {
+      font-size: 30px;
+      line-height: 40px;
+    }
 }
 @media screen and (max-width:480px) {
   .coin-logo-area ul li img {
@@ -706,6 +741,13 @@
   }
   .ecm-form .subscribe-email img {
     padding-left: 10px;
+  }
+  .navbar-brand img{
+    max-width: 220px;
+  }
+  .navbar {
+    padding-left:0px;
+    padding-right:0px;
   }
 }
 

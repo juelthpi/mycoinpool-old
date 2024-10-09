@@ -47,6 +47,32 @@ jQuery(document).ready(function ($) {
           $('header').removeClass('menu-bg-fixed');
       }
   });
+  // Country select
+  // Get references to elements
+    const $selectSelected = $('.select-selected');
+    const $selectItems = $('.select-items');
+    const $selectItemList = $('.select-item');
+
+    // Toggle dropdown on click
+    $selectSelected.on('click', function () {
+        $selectItems.toggle();
+    });
+
+    // Close dropdown when clicking outside
+    $(document).on('click', function (event) {
+        if (!$(event.target).closest('.custom-select').length) {
+            $selectItems.hide();
+        }
+    });
+
+    // Update selected value and close dropdown
+    $selectItemList.on('click', function () {
+        const selectedValue = $(this).data('value');
+        const selectedText = $(this).html();
+        $selectSelected.html(selectedText);
+        $selectItems.hide();
+    });
+
   
 
 })

@@ -2004,7 +2004,7 @@ select {
 	border-radius:5px;
   background: linear-gradient(90deg, rgba(39, 123, 245, 0.3) 0%, rgba(28, 214, 145, 0.3) 100.01%);
 } 
- .apply-launch-part label{
+ .apply-launch-part label,.modal-body-inner label{
   font-size: 20px;
   font-weight: 500;
   line-height:32px;
@@ -2269,3 +2269,143 @@ select {
   margin: auto;
 	 
 }
+/* Start modal css */
+.bg-gradient-add{
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+}
+.modal-custome-width {
+	max-width: 984px;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%) !important;
+}
+.modal-header-area h4{
+  font-size: 45px;
+  color:#fff;
+  font-weight:700;
+  line-height:60px;
+}
+.modal-close-btn span i{
+  color:#fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.modal-header-area{
+  border-bottom: 3px solid #FFFFFF1A;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.custome-modal{
+  padding: 40px;
+  background-color:#040C16;
+  border: 1.5px solid #FFFFFF1A;
+  border-radius: 20px;
+}
+.custome-modal input{
+  border: none;
+}
+.modal-body-inner .bg-border-input::after{
+  border-radius: 7px;
+}
+.modal-body-inner a:hover{
+  text-decoration: underline;
+}
+.gradient-btn{
+  background: linear-gradient(90deg, #277BF5 0%, #1CD691 100.01%);
+  padding:16px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight:600;
+  color:#fff;
+  transition: 0.5s;
+}
+.gradient-btn:hover{
+  background: linear-gradient(0deg, #277BF5 0%, #1CD691 100.01%);
+}
+.modal-or-text{
+  font-size: 32px;
+  color: #FFFFFF66;
+  margin-top: 40px;
+  line-height: 22px;
+}
+.modal-footer-area a{
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+  line-height: 32px;
+  color: #fff;
+}
+.modal-footer-area a:hover,.modal-close-btn:hover i{
+  color: #1CD691;
+}
+.bg-solid-btn{
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight:600;
+  text-align: center;
+  padding:16px 60px;
+  background: #2682EE;
+  border-radius: 50px;
+  color:#fff;
+  transition: 0.5s;
+}
+.bg-solid-btn:hover{
+  background: linear-gradient(0deg, #277BF5 0%, #1CD691 100.01%);
+  color:#fff !important;
+}
+.custome-modal .bg-border-input{
+  z-index: inherit;
+}
+.select-icon i{
+  color:#fff;
+}
+/* End modal css */
+
+/* Start country select css */
+.custom-select {
+  position: relative;
+  width: 100%;
+  z-index: 999;
+}
+.select-selected {
+  background-color: #0B121C;
+  padding: 12px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.select-selected img{
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right:15px;
+}
+.select-items {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+  overflow-y: auto;
+  display: none;
+  z-index: 99;
+}
+.select-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.select-item img {
+  margin-right: 10px;
+}
+.select-item:hover {
+  background-color: #f1f1f1;
+}
+/* End country select css */
