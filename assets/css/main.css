@@ -2277,8 +2277,8 @@ select {
 .modal-custome-width {
 	max-width: 984px;
 	width: 100%;
-	top: 50%;
-	transform: translateY(-50%) !important;
+	top:140px;
+	/* transform: translateY(-50%) !important; */
 }
 .modal-header-area h4{
   font-size: 45px;
