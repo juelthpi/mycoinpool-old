@@ -32,16 +32,7 @@ jQuery(document).ready(function ($) {
         $navbarText.removeClass("show");
       }
     });
-    // logo flip
-    $('.logo-flip-box').flipbox({
-      autoplay: true,
-      autoplayReverse: false,
-      autoplayWaitDuration:1800,
-      autoplayPauseOnHover: false,
-      animationDuration: 1500,
-	    animationEasing: 'ease'
-    });
-
+    
 
   // menu bg add
     $(window).on('scroll', function() {
@@ -77,6 +68,15 @@ jQuery(document).ready(function ($) {
         $selectItems.hide();
     });
 
-  
+  // logo flip
+  $('.logo-flip-box').flipbox({
+    autoplay: true,
+    autoplayReverse: false,
+    autoplayWaitDuration:1800,
+    autoplayPauseOnHover: false,
+    animationDuration: 1500,
+    animationEasing: 'ease'
+  });
+
 
 })
