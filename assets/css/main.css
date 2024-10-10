@@ -2269,6 +2269,10 @@ select {
   margin: auto;
 	 
 }
+ .flip-item img{
+  width: 100%;
+  margin-top: -95px;
+ }
 /* Start modal css */
 .bg-gradient-add{
   background: rgba(255, 255, 255, 0.03);

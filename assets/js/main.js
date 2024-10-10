@@ -32,12 +32,16 @@ jQuery(document).ready(function ($) {
         $navbarText.removeClass("show");
       }
     });
-    
-    $('.flip-custom').slideShowAd({
-      interval: '3000',
-      slideShowType: 'flipY',
-      targetBlank: true
+    // logo flip
+    $('.logo-flip-box').flipbox({
+      autoplay: true,
+      autoplayReverse: false,
+      autoplayWaitDuration:1800,
+      autoplayPauseOnHover: false,
+      animationDuration: 1500,
+	    animationEasing: 'ease'
     });
+
 
   // menu bg add
     $(window).on('scroll', function() {

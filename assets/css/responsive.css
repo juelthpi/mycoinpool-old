@@ -10,7 +10,10 @@
   
 }
 @media screen and (max-width: 1440px) {
-  
+  .flip-item img {
+    width: 100%;
+    margin-top: -43px;
+  }
  .multi-chain-power-section{
     margin-top: 0;
   }
