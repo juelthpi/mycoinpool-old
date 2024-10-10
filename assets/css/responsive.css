@@ -212,6 +212,7 @@
   }
   .footer-widgets-area{
     width: 100%;
+    justify-content: space-around;
   }
   .subscribe-email input{
     font-size: 16px;
@@ -240,6 +241,9 @@
   .navbar {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .box-bg {
+    margin-top: 60px;
   }
  
 }
@@ -315,13 +319,13 @@
   .section-heading h3,.token-card-heading h3 {
     font-size: 45px;
   }
-  .footer-widgets {
+  /* .footer-widgets {
     width: 47%;
-  }
+  } */
   .footer-widgets-area {
-   row-gap: 40px;
+   /* row-gap: 40px; */
     /* flex-wrap: wrap; */
-    column-gap: 0;
+    /* column-gap: 0; */
   }
   .token-view-shear{
     border-right:none;
@@ -343,6 +347,12 @@
     background-image: url('../images/bg/mobile-card.png');
     padding-bottom: 60px !important;
     padding-top: 60px;
+  }
+  .slider-arrows {
+    display: none !important;
+  }
+  .footer-widgets-area {
+    gap: 70px;
   }
   
 }
@@ -512,8 +522,14 @@
   .circle-effect-center,.center-effect1::after {
     width: 100%;
   }
+  .center-effect1::after {
+    background-size: contain;
+  }
   .ido-card-list-item img {
     display: none;
+  }
+  .contactinfo{
+    min-width: auto;
   }
   .ido-card-list-item {
     grid-template-columns: 4fr 6fr;
@@ -639,9 +655,7 @@
     .apply-launch-part label{
       font-size:15px;
      }
-     .footer-widgets {
-      width: 50%;
-    }
+
     .subscribe-form .subscribe-btn{
       margin: auto;
       margin-top: 20px;
@@ -661,6 +675,7 @@
     }
     .footer-widgets.footer-subscribe{
       margin-top: 40px;
+      text-align: center;
     }
     .navbar.menu-bg.clip-path{
       clip-path: polygon( 5px 0, 100% 0, 100% calc(100% - 5px), calc(100% - 5px) 100%, 0 100%, 0 5px );
@@ -715,6 +730,9 @@
       font-size: 30px;
       line-height: 40px;
     }
+    .footer-area {
+      gap: 40px;
+    }
 }
 @media screen and (max-width:480px) {
   .coin-logo-area ul li img {
@@ -751,6 +769,9 @@
   .navbar {
     padding-left:0px;
     padding-right:0px;
+  }
+  .footer-widgets-area {
+    gap: 40px;
   }
 }
 

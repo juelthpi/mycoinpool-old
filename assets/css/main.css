@@ -100,10 +100,20 @@ h1,h2,h3,h4,h5,h6{
   transition: 0.5s;
 }
 .nav-item > a:hover,.nav-item > a:focus,.dropdown-menu ul li a:hover{
-  color: #1DC89F;
+  background: linear-gradient(90deg, #277BF5 0%, #1CD691 100.01%);
+  background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 }
 .nav-link.dropdown-toggle.show{
-  color: #1DC89F;
+  background: linear-gradient(90deg, #277BF5 0%, #1CD691 100.01%);
+  background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 }
 .header-right{
   gap:15px;
@@ -939,7 +949,7 @@ a.nav-link.dropdown-toggle i{
 	width: 100%;
 } */
  .footer-area{
-  gap: 60px;
+  gap:100px;
  }
 .footer-description {
   width: 30%;
@@ -958,6 +968,7 @@ a.nav-link.dropdown-toggle i{
 }
 .footer-widgets-area{
   width: 70%;
+  gap: 100px;
 }
 /* .footer-widgets-area{
   gap:40px;
@@ -979,9 +990,9 @@ a.nav-link.dropdown-toggle i{
   padding-bottom:80px;
 
 }
-.footer-widgets {
+/* .footer-widgets {
 	width: 33%;
-}
+} */
 
 .footer-widgets ul li a,.footer-widgets ul li{
   font-size:18px;
@@ -2214,6 +2225,9 @@ select {
   font-style: italic;
   font-size:24px;
 }
+.contactinfo{
+  min-width: 255px;
+}
 .contactinfo ul li a{
   font-style: normal;
 }
@@ -2270,7 +2284,7 @@ select {
 	 
 }
  .flip-item img{
-  width: 100%;
+  width: 100% !important;
   margin-top: -95px;
  }
 /* Start modal css */
@@ -2413,3 +2427,36 @@ select {
   background-color: #f1f1f1;
 }
 /* End country select css */
+.slick-dots{
+  bottom: -54px;
+  z-index: 99;
+}
+.slick-dots li button::before {
+	left: 0;
+	width: 20px;
+	height: 20px;
+	opacity: 1;
+	color: transparent;
+	background: linear-gradient(90deg, #277BF5 0%, #1CD691 100.01%);
+	border-radius: 50%;
+}
+.slick-dots li.slick-active button::before {
+	opacity: 1;
+	color: white;
+	font-size: 15px;
+	line-height: 23px;
+	top: 0;
+	left: 0;
+}
+.icon-bar i {
+	color: #fff;
+	font-size: 32px;
+}
+.publish-date{
+  gap: 10px;
+  color: #FFFFFFCC;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}

@@ -19,6 +19,8 @@ jQuery(document).ready(function ($) {
           breakpoint:991,
           settings: {
             slidesToShow: 1,
+            arrows:false,
+            dots: true,
           },
         },
       ],
